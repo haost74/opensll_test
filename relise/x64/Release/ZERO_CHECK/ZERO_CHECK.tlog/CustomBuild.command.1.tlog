@@ -1,0 +1,10 @@
+^I:\PROD\C++\OPENSLL_TEST\RELISE\CMAKEFILES\18FAB2D864A1E44F4EF2C953A30008D6\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/Prod/C++/opensll_test -BI:/Prod/C++/opensll_test/relise --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file I:/Prod/C++/opensll_test/relise/app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

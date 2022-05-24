@@ -1,0 +1,10 @@
+^I:\PROD\C++\OPENSLL_TEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SI:/Prod/C++/opensll_test -BI:/Prod/C++/opensll_test/debug/build --check-stamp-file I:/Prod/C++/opensll_test/debug/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
