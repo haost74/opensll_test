@@ -18,32 +18,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "app", "app.vcxproj", "{0BA0
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
 		Release|x64 = Release|x64
-		MinSizeRel|x64 = MinSizeRel|x64
-		RelWithDebInfo|x64 = RelWithDebInfo|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{204349C0-0781-35F6-9885-BD9975938287}.Debug|x64.ActiveCfg = Debug|x64
 		{204349C0-0781-35F6-9885-BD9975938287}.Release|x64.ActiveCfg = Release|x64
-		{204349C0-0781-35F6-9885-BD9975938287}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
-		{204349C0-0781-35F6-9885-BD9975938287}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
-		{B92BA0BF-326C-3BDE-B3EE-39BAEDA5EFEA}.Debug|x64.ActiveCfg = Debug|x64
-		{B92BA0BF-326C-3BDE-B3EE-39BAEDA5EFEA}.Debug|x64.Build.0 = Debug|x64
 		{B92BA0BF-326C-3BDE-B3EE-39BAEDA5EFEA}.Release|x64.ActiveCfg = Release|x64
 		{B92BA0BF-326C-3BDE-B3EE-39BAEDA5EFEA}.Release|x64.Build.0 = Release|x64
-		{B92BA0BF-326C-3BDE-B3EE-39BAEDA5EFEA}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
-		{B92BA0BF-326C-3BDE-B3EE-39BAEDA5EFEA}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
-		{B92BA0BF-326C-3BDE-B3EE-39BAEDA5EFEA}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
-		{B92BA0BF-326C-3BDE-B3EE-39BAEDA5EFEA}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
-		{0BA0489E-E9A6-3B91-B73E-82E6CF39838E}.Debug|x64.ActiveCfg = Debug|x64
-		{0BA0489E-E9A6-3B91-B73E-82E6CF39838E}.Debug|x64.Build.0 = Debug|x64
 		{0BA0489E-E9A6-3B91-B73E-82E6CF39838E}.Release|x64.ActiveCfg = Release|x64
 		{0BA0489E-E9A6-3B91-B73E-82E6CF39838E}.Release|x64.Build.0 = Release|x64
-		{0BA0489E-E9A6-3B91-B73E-82E6CF39838E}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
-		{0BA0489E-E9A6-3B91-B73E-82E6CF39838E}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
-		{0BA0489E-E9A6-3B91-B73E-82E6CF39838E}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
-		{0BA0489E-E9A6-3B91-B73E-82E6CF39838E}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A22BB92-9C1E-36DE-B076-108A6BBBB9AE}
